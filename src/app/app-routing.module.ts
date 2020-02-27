@@ -7,7 +7,7 @@ import { ListProduitComponent } from './produit/list-produit/list-produit.compon
 
 const routes: Routes = [
   {
-    path: "allExpertise",
+    path: "allProduit",
     component: ListProduitComponent
   },
   {
@@ -15,11 +15,11 @@ const routes: Routes = [
     component: ListProduitComponent
   },
   {
-    path: "addExpertise",
+    path: "addProduit",
     component: AddProduitComponent
   },
   {
-    path: "updateExpertise",
+    path: "updateProduit",
     component: UpdateProduitComponent
   }
 ];

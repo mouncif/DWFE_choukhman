@@ -10,32 +10,8 @@
       "unite": "vvvv",
       "image": "vv",
       "quentite_initial": "bon",
-      "quentite_actuel": "ddv"
-    }
-  ],
-  "Fournisseur": [
-    {
-      "id": 1,
-      "Nom_fourni": "dcdr",
-      "nom_court_fourni": "2020-02-13T23:00:00.000Z",
-      "ville_fourn": "dvd",
-      "adresse_fourni": "dvdv",
-      "tel_fix_fourni": "dvvd",
-      "tel_mobile_fourni": "vvvv",
-      "fax_fourni": "vv",
-      "adresse_email_fourni": "bon",
-    }
-  ],
-    "Client": [
-    {
-      "id": 1,
-      "Nom_client": "dcdr",
-      "prenom": "2020-02-13T23:00:00.000Z",
-      "photo": "dvd",
-      "telephone": "dvdv",
-      "email_client": "dvvd",
-      "adresse_client": "vvvv",
-      "ville": "vv"
+      "quentite_actuel": "ddv",
+      "action" : ""
     }
   ]
 }

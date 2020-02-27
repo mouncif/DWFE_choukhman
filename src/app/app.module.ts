@@ -1,3 +1,4 @@
+import { ProduitService } from './produit/service/produit.service';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -8,7 +9,7 @@ import { AddProduitComponent } from './produit/add-produit/add-produit.component
 import { UpdateProduitComponent } from './produit/update-produit/update-produit.component';
 import { NavbarComponent } from './produit/navbar/navbar.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-
+import { HttpClientModule } from '@angular/common/http';
 import {
   MatAutocompleteModule,
   MatButtonModule,
@@ -41,6 +42,7 @@ import {
   MatTooltipModule,
   MatStepperModule
 } from "@angular/material";
+
 
 @NgModule({
   declarations: [
@@ -84,11 +86,12 @@ import {
     MatTabsModule,
     MatToolbarModule,
     MatTooltipModule,
-    MatStepperModule
+    MatStepperModule,
+    HttpClientModule
 
 
   ],
-  providers: [],
+  providers: [ProduitService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
